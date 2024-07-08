@@ -58,6 +58,7 @@ function findValueByKey(Object, companyName)
 			if(String(companyName).includes(arr[i].name))
 			{
 				Object = arr[i];
+				break;
 			}
 		}
 
