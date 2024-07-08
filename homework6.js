@@ -59,10 +59,6 @@ function findValueByKey(Object, companyName)
 			{
 				Object = arr[i];
 			}
-			else
-			{
-				continue;
-			}
 		}
 
 		return findValueByKey(Object, companyName);		
